@@ -1,0 +1,86 @@
+body
+ {
+	font-family: Verdana, Tahoma, STHeiti, "Noto Sans CJK SC", "Microsoft YaHei", SimHei, sans-serif;
+	text-align: center;
+}
+h1 {
+    color: #4598f5;
+    text-align: center;
+    font-size: 28px;
+    margin-top:0.8em;
+}
+a{ text-decoration:none!important}
+
+.response {
+    width: 60%;
+    margin: 0 auto;
+}
+
+pre {
+    text-align: left;
+    padding: 0px 0 0 9.5px;
+    margin: 15px 0px 10px 0px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: pre-wrap!important;
+    word-wrap: break-word!important;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.google_input {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  outline: 0;
+  border: 1px solid #F1F3F4;
+  background: #F1F3F4;
+  transition: all 200ms;
+  width: 50%;
+  margin: 0.5rem 0.5rem;
+  margin-left: 0;
+  z-index: -1;
+}
+.google_input:focus {
+  background: #FFF;
+  box-shadow: 1px 3px 5px 1px #e1e1e1;
+  border-color: #F1F3F4;
+}
+.formBtn {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  background: #F1F3F4;
+  border: 1px solid #F1F3F4;
+  color: #000;
+  width: 10%;
+  margin: 0.5rem 0.5rem;
+  margin-left: 0;
+  transition: all 200ms;
+}
+.formBtn:hover {
+  cursor: pointer;
+  background: #abf2b0;
+  color: #000;
+  border-color: #abf2b0;
+  box-shadow: 1px 2px 5px 0px #e1e1e1;
+}
+.formBtn:focus {
+  outline: none;
+  background: #6add8f;
+  border: 1px solid #6add8f;
+}
+
+@media only screen and (min-width: 240px) and (max-width: 640px) {
+.google_input {
+  width: 60%;
+  font-size: 0.8rem;
+}
+.formBtn {
+  width: 30%;
+    font-size: 0.8rem;
+}
+.response {
+    width: 100%;
+}
+}

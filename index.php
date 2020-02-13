@@ -65,9 +65,8 @@ function QueryWhoisServer($whoisserver, $domain) {
     <div class="form_div">
       <form name="form" id="myform" action="<?php
       $_SERVER['PHP_SELF']; ?>" method="get">
-        <input type="text" class="google_input" maxlength="100" name="domain" value="<?php
-        echo $domain; ?>" placeholder="请输入域名" size="30">
-        <input class="formBtn" type="submit" value="查询" /></form>
+        <input type="text" class="google_input" maxlength="100" name="domain" value="" size="30">
+        <input class="formBtn" type="submit" value="Whois" /></form>
     </div>
     <div class="response">
 		<pre><?php

@@ -2744,6 +2744,7 @@ $whoisservers = array(
 	"whoswho" =>"whois.nic.whoswho",
 	"wien" =>"whois.nic.wien",
 	"wiki" =>"whois.nic.wiki",
+	"gay" =>"whois.nic.wiki",
 	"williamhill" =>"whois.nic.williamhill",
 	"win" =>"whois.nic.win",
 	"windows" =>"whois.nic.windows",
